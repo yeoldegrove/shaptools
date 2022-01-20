@@ -69,7 +69,6 @@ class PyhdbConnector(base_connector.BaseConnector):
             if cursor:
                 cursor.close()
         return result
-
     def disconnect(self):
         """
         Disconnect from SAP HANA database
